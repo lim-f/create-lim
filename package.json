@@ -1,0 +1,31 @@
+{
+  "name": "create-lim",
+  "version": "0.0.1",
+  "description": "Mark Framework easier to use.",
+  "type": "module",
+  "bin": {
+    "create-lim": "index.cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lim-f/create-lim.git"
+  },
+  "scripts": {},
+  "files": [
+    "index.cjs",
+    "libs",
+    "LICENSE",
+    "package.json"
+  ],
+  "author": "theajack",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.0.1",
+    "log-progress": "^1.0.5"
+  },
+  "devDependencies": {
+    "gradient-string": "^2.0.2"
+  }
+}
