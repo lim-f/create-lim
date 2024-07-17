@@ -105,8 +105,8 @@ function downloadProject (answers, url) {
             log.blue('Run the following command to start:');
             log.n();
             log.green(`cd ${answers.name}`);
-            log.green('pnpm i');
-            log.green('pnpm run dev');
+            log.green('npm i');
+            log.green('npm run dev');
         }
         log.n();
     });

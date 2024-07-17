@@ -27,5 +27,8 @@
   },
   "devDependencies": {
     "gradient-string": "^2.0.2"
+  },
+  "publishConfig": {
+      "registry": "https://registry.npmjs.org"
   }
 }
